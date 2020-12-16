@@ -1,0 +1,32 @@
+.Menu {
+    &_item {
+      padding: 0 20px;
+      position: relative;
+      &:hover {
+        cursor: pointer;
+      }
+      a {
+        color: #788a9a;
+        font-weight: bold;
+        text-decoration: none;
+        &:hover{
+         color: #5b6975;
+        }
+      }
+    }
+
+    &_notify_count {
+      color: #006dbe;
+      font-size: 11px;
+      min-width: 21px;
+      min-height: 18px;
+      position: absolute;
+      top: 0;
+      right: -8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:#006dbe42;
+      border-radius: 50%;
+    }
+  }

@@ -1,0 +1,32 @@
+.Arrow{
+    margin-left: 5px;
+   background-color: #F0F0F0;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   position: relative;
+   cursor: pointer;
+   &_icon{
+       width: 5px;
+       height: 5px;
+       border: solid #788A9A;
+       border-width: 0 2px 2px 0;
+       display: inline-block;
+       position: absolute;
+       top: 5px;
+       left: 7px;
+       transform: rotate(45deg);
+
+   }
+}
+
+.User{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 50px;
+    &_name{
+        font-weight: bold;
+        margin-left: 5px;
+    }
+}
