@@ -4,7 +4,7 @@
 
 First of all you need to run:
 
-```yarn install``` 
+### `yarn install`
 
 To install all necessary dependencies
 
